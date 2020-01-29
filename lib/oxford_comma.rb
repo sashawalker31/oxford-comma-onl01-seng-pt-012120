@@ -9,7 +9,3 @@ end
     return new_result
 end
 
- def oxford_comma(array=["kiwi", "durian", "starfruit"])
-    results=array.join("")
-    return results
-  end
