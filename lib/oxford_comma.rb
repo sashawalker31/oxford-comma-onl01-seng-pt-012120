@@ -13,4 +13,3 @@ end
     results=array.insert(-2,"and").join(", ")
     return results
   end
-end 
