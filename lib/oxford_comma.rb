@@ -4,10 +4,11 @@ def oxford_comma(array)
     return result
 end
 
-def oxford_comma(array=["kiwi", "durian"])
-  new_result=array.join(" and ")
+  array=["kiwi", "durian"]
+    new_result=array.join(" and ")
 end
 
-def oxford_comma(array=["kiwi", "durian", "starfruit"])
-  results=array.insert(-2,"and").join(", ")
-end
+  array=["kiwi", "durian", "starfruit"]
+    results=array.insert(-2,"and").join(", ")
+  end
+end 
